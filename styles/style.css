@@ -71,11 +71,8 @@
   z-index: 4;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.content {
+  color: #000;
 }
 
 .description {
@@ -155,19 +152,19 @@
   align-self: center;
 }
 
-.table_cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
 
-.table_heading {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
 
-.table_text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -247,36 +244,39 @@
   z-index: -1;
 }
 
+.table__theme_dark {
+  color: #f2f2f2;
+}
+
 .section__title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  color: white;
+  color: #f2f2f2;
   width: 60%;
 }
 
 .section__subtitle_theme_dark {
-  color: white;
+  color: #f2f2f2;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
 }
 
-.table_cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  margin-right: 0;
 }
 
-.table_heading_theme_dark {
-  color: white;
+.table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
-.table_text_theme_dark {
-  color: white;
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -284,11 +284,12 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: #000;
   display: flex;
   margin: 0;
   min-height: 350px;
   justify-content: center;
+  color: #f2f2f2;
 }
 
 .footer__columns {
@@ -313,7 +314,6 @@
 }
 
 .footer__author {
-  color: white;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -322,14 +322,12 @@
 }
 
 .footer__column-heading {
-  color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .footer__column-links {
-  color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -339,7 +337,7 @@
 }
 
 .footer__column_content_social {
-  color: white;
+  color: #f2f2f2;
 }
 
 .footer__social-icon {
@@ -349,5 +347,5 @@
 .footer__column-link {
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: #f2f2f2;
 }
