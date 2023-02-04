@@ -32,6 +32,7 @@
   font-size: 102px;
   font-weight: 600;
   z-index: 6;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -39,7 +40,6 @@
   width: 388px;
   bottom: 30px;
   left: 64px;
-
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -192,11 +192,9 @@
   font-weight: 600;
   width: 648px;
   text-align: center;
-
   z-index: 1;
   margin: 0;
   margin-top: 100px;
-
 }
 
 .feynman__subtitle {
